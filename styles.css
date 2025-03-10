@@ -1,47 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-header nav ul {
+ul {
     list-style: none;
     padding: 0;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
+ul li {
+    margin-bottom: 10px;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-}
-
-h2 {
+ul li a {
     color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+ul li a:hover {
+    color: #007BFF;
 }
